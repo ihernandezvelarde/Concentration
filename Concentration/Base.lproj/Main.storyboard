@@ -29,26 +29,17 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="pwc-RF-zyW">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="72"/>
                                         <subviews>
-                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o6E-gb-dmX">
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgi-zv-xCZ">
                                                 <rect key="frame" x="0.0" y="0.0" width="79.666666666666671" height="72"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
-                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TW5-YV-GWn"/>
-                                                </connections>
-                                            </button>
-                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05d-0o-FU3">
-                                                <rect key="frame" x="87.666666666666671" y="0.0" width="80.000000000000014" height="72"/>
-                                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <connections>
-                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tv3-SR-PA4"/>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FEV-gU-gqr"/>
                                                 </connections>
                                             </button>
                                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nzm-Q1-aoA">
-                                                <rect key="frame" x="175.66666666666666" y="0.0" width="79.666666666666657" height="72"/>
+                                                <rect key="frame" x="87.666666666666671" y="0.0" width="80.000000000000014" height="72"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -56,13 +47,22 @@
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uaA-o8-Bvt"/>
                                                 </connections>
                                             </button>
-                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLa-p9-UDp">
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCv-MG-mQG">
+                                                <rect key="frame" x="175.66666666666666" y="0.0" width="79.666666666666657" height="72"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <connections>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kri-by-fsW"/>
+                                                </connections>
+                                            </button>
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dpw-XL-e90">
                                                 <rect key="frame" x="263.33333333333331" y="0.0" width="79.666666666666686" height="72"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
-                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qed-0k-eHr"/>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="204-n9-ihB"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -70,13 +70,13 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="DaY-NI-M0Y">
                                         <rect key="frame" x="0.0" y="80" width="343" height="72"/>
                                         <subviews>
-                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dpw-XL-e90">
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iLa-p9-UDp">
                                                 <rect key="frame" x="0.0" y="0.0" width="79.666666666666671" height="72"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
-                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="204-n9-ihB"/>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qed-0k-eHr"/>
                                                 </connections>
                                             </button>
                                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1vB-NB-Tuh">
@@ -88,22 +88,22 @@
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iph-TM-yrW"/>
                                                 </connections>
                                             </button>
-                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgi-zv-xCZ">
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QI2-XK-hKk">
                                                 <rect key="frame" x="175.66666666666666" y="0.0" width="79.666666666666657" height="72"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
-                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FEV-gU-gqr"/>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cwP-LP-cc7"/>
                                                 </connections>
                                             </button>
-                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Da-tZ-WnE">
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05d-0o-FU3">
                                                 <rect key="frame" x="263.33333333333331" y="0.0" width="79.666666666666686" height="72"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
-                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tIe-s3-nZy"/>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Tv3-SR-PA4"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -120,22 +120,22 @@
                                                     <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dvv-vB-5Vx"/>
                                                 </connections>
                                             </button>
-                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCv-MG-mQG">
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Da-tZ-WnE">
                                                 <rect key="frame" x="87.666666666666671" y="0.0" width="80.000000000000014" height="72"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
-                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kri-by-fsW"/>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tIe-s3-nZy"/>
                                                 </connections>
                                             </button>
-                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QI2-XK-hKk">
+                                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o6E-gb-dmX">
                                                 <rect key="frame" x="175.66666666666666" y="0.0" width="79.666666666666657" height="72"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="50"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <connections>
-                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cwP-LP-cc7"/>
+                                                    <action selector="touchCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TW5-YV-GWn"/>
                                                 </connections>
                                             </button>
                                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sTW-mf-M3o">
@@ -165,18 +165,18 @@
                     </view>
                     <connections>
                         <outlet property="flipCountLabel" destination="UbF-E7-N0u" id="W3f-nA-LzF"/>
-                        <outletCollection property="cardButtons" destination="iLa-p9-UDp" collectionClass="NSMutableArray" id="TNb-qF-khK"/>
                         <outletCollection property="cardButtons" destination="Nzm-Q1-aoA" collectionClass="NSMutableArray" id="3zx-Nh-h0M"/>
-                        <outletCollection property="cardButtons" destination="05d-0o-FU3" collectionClass="NSMutableArray" id="Ygt-qj-z4d"/>
-                        <outletCollection property="cardButtons" destination="o6E-gb-dmX" collectionClass="NSMutableArray" id="9Ii-cv-Pvu"/>
                         <outletCollection property="cardButtons" destination="1vB-NB-Tuh" collectionClass="NSMutableArray" id="7sM-o2-ON6"/>
-                        <outletCollection property="cardButtons" destination="dpw-XL-e90" collectionClass="NSMutableArray" id="lji-hR-fQF"/>
-                        <outletCollection property="cardButtons" destination="mgi-zv-xCZ" collectionClass="NSMutableArray" id="R4G-r5-OCb"/>
-                        <outletCollection property="cardButtons" destination="3Da-tZ-WnE" collectionClass="NSMutableArray" id="o8F-Ad-hRx"/>
                         <outletCollection property="cardButtons" destination="sTW-mf-M3o" collectionClass="NSMutableArray" id="B2q-Ub-MlG"/>
-                        <outletCollection property="cardButtons" destination="QI2-XK-hKk" collectionClass="NSMutableArray" id="ca2-fF-n1i"/>
                         <outletCollection property="cardButtons" destination="UHT-DQ-DLx" collectionClass="NSMutableArray" id="PU0-vF-9dc"/>
+                        <outletCollection property="cardButtons" destination="05d-0o-FU3" collectionClass="NSMutableArray" id="Ygt-qj-z4d"/>
+                        <outletCollection property="cardButtons" destination="mgi-zv-xCZ" collectionClass="NSMutableArray" id="R4G-r5-OCb"/>
+                        <outletCollection property="cardButtons" destination="o6E-gb-dmX" collectionClass="NSMutableArray" id="9Ii-cv-Pvu"/>
                         <outletCollection property="cardButtons" destination="eCv-MG-mQG" collectionClass="NSMutableArray" id="xzB-pK-CxW"/>
+                        <outletCollection property="cardButtons" destination="3Da-tZ-WnE" collectionClass="NSMutableArray" id="o8F-Ad-hRx"/>
+                        <outletCollection property="cardButtons" destination="QI2-XK-hKk" collectionClass="NSMutableArray" id="ca2-fF-n1i"/>
+                        <outletCollection property="cardButtons" destination="dpw-XL-e90" collectionClass="NSMutableArray" id="lji-hR-fQF"/>
+                        <outletCollection property="cardButtons" destination="iLa-p9-UDp" collectionClass="NSMutableArray" id="TNb-qF-khK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
